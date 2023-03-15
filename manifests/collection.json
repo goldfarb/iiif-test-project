@@ -1,0 +1,13 @@
+{
+  "id" : "https://goldfarb.github.io/iiif-test-project/manifests/collection.json",
+  "label" : {
+    "en" : [ "All manifests loaded in goldfarb/iiif-test-project project" ]
+  },
+  "type" : "Collection",
+  "@context" : "http://iiif.io/api/presentation/3/context.json",
+  "items" : [ {
+    "@type" : "sc:Manifest",
+    "@id" : "https://goldfarb.github.io/iiif-test-project/manifests/manifest2.json",
+    "label" : "Postal Routes Map & Trees in Snow"
+  } ]
+}
