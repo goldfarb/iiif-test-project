@@ -1,0 +1,32 @@
+{
+  "tiles" : [ {
+    "scaleFactors" : [ 32, 16, 8, 4, 2, 1 ],
+    "width" : 1024,
+    "height" : 1024
+  } ],
+  "protocol" : "http://iiif.io/api/image",
+  "sizes" : [ {
+    "width" : 104,
+    "height" : 55
+  }, {
+    "width" : 208,
+    "height" : 110
+  }, {
+    "width" : 415,
+    "height" : 219
+  }, {
+    "width" : 830,
+    "height" : 438
+  }, {
+    "width" : 1660,
+    "height" : 875
+  }, {
+    "width" : 3319,
+    "height" : 1749
+  } ],
+  "profile" : "http://iiif.io/api/image/2/level0.json",
+  "width" : 3319,
+  "@id" : "https://goldfarb.github.io/iiif-test-project/images/11088000",
+  "@context" : "http://iiif.io/api/image/2/context.json",
+  "height" : 1749
+}
