@@ -9,5 +9,9 @@
     "@type" : "sc:Manifest",
     "@id" : "https://goldfarb.github.io/iiif-test-project/manifests/manifest2.json",
     "label" : "Postal Routes Map & Trees in Snow"
+  }, {
+    "@type" : "sc:Manifest",
+    "@id" : "https://goldfarb.github.io/iiif-test-project/manifests/manifest.json",
+    "label" : "FAA VFR Charts"
   } ]
 }
