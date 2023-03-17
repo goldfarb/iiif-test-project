@@ -2,30 +2,30 @@
   "@context" : "http://iiif.io/api/presentation/2/context.json",
   "@id" : "https://goldfarb.github.io/iiif-test-project/manifests/manifest.json",
   "@type" : "sc:Manifest",
-  "label" : "FAA VFR Chart",
+  "label" : "FAA VFR Charts",
   "metadata" : [ ],
   "description" : [ {
-    "@value" : "FAA VFR Sectional for New York",
+    "@value" : "FAA charts used for VFR Flight",
     "@language" : "en"
   } ],
-  "license" : "https://creativecommons.org/licenses/by/4.0/",
+  "license" : "https://creativecommons.org/licenses/by/3.0/",
   "attribution" : "FAA",
   "sequences" : [ {
-    "@id" : "http://4cb7ca87-cafe-47be-90c8-903a9e3a247b",
+    "@id" : "http://2daf3520-994c-48fa-bdad-ee1b6df87170",
     "@type" : "sc:Sequence",
     "label" : [ {
       "@value" : "Normal Sequence",
       "@language" : "en"
     } ],
     "canvases" : [ {
-      "@id" : "http://0b97cf30-b5ad-43eb-8dfa-2e2f2bf3ee32",
+      "@id" : "http://837a34fa-4171-4fcd-96fa-efd62dd85659",
       "@type" : "sc:Canvas",
-      "label" : "New York Sectional",
+      "label" : "NY Sectional",
       "height" : 4951,
       "width" : 7154,
       "images" : [ {
         "@context" : "http://iiif.io/api/presentation/2/context.json",
-        "@id" : "http://7b98404a-07bd-4901-9e22-43d70afd17be",
+        "@id" : "http://139e29c0-e1a3-496e-bdcc-fbd76b808210",
         "@type" : "oa:Annotation",
         "motivation" : "sc:painting",
         "resource" : {
@@ -40,10 +40,51 @@
           "height" : 4951,
           "width" : 7154
         },
-        "on" : "http://0b97cf30-b5ad-43eb-8dfa-2e2f2bf3ee32"
+        "on" : "http://837a34fa-4171-4fcd-96fa-efd62dd85659"
       } ],
-      "related" : ""
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://goldfarb.github.io/iiif-test-project/annotations/f952db925fa11cf2c5332a2cfbfa9d14.json",
+        "label" : "Annotations for canvas NY Sectional"
+      } ]
+    }, {
+      "@id" : "http://1fe1c84c-697b-48c8-b3dc-0d1c4fbbf24b",
+      "@type" : "sc:Canvas",
+      "label" : "Boston Terminal Area Chart",
+      "height" : 3587,
+      "width" : 4991,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://6dcd63a5-a609-4f6e-b901-36161606c637",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/boston-tac_202303/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/boston-tac_202303",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 3587,
+          "width" : 4991
+        },
+        "on" : "http://1fe1c84c-697b-48c8-b3dc-0d1c4fbbf24b"
+      } ],
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://goldfarb.github.io/iiif-test-project/annotations/c2e5f64e607225cc8f0d2249d966e281.json",
+        "label" : "Annotations for canvas Boston Terminal Area Chart"
+      } ]
     } ]
   } ],
-  "structures" : [ ]
+  "structures" : [ ],
+  "service" : {
+    "profile" : "http://iiif.io/api/search/0/search",
+    "@id" : "https://dev.gdmrdigital.com/search-api/1245635613/3722037/45f3dd000c2d5c088ce6fbfea0483600/search",
+    "@context" : "http://iiif.io/api/search/0/context.json"
+  }
 }
