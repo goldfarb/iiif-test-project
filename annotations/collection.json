@@ -1,6 +1,6 @@
 {
   "@type" : "sc:Layer",
-  "otherContent" : [ "https://goldfarb.github.io/iiif-test-project/annotations/annotations.json" ],
+  "otherContent" : [ "https://goldfarb.github.io/iiif-test-project/annotations/annotations.json", "https://goldfarb.github.io/iiif-test-project/annotations/c2e5f64e607225cc8f0d2249d966e281.json" ],
   "@id" : "https://goldfarb.github.io/iiif-test-project/annotations/collection.json",
   "label" : "All annotations loaded in goldfarb/iiif-test-project project",
   "@context" : "http://iiif.io/api/presentation/2/context.json"
