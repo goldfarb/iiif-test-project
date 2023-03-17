@@ -1,0 +1,72 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Additional detail may be found on the Boston Terminal Area Chart.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Additional detail may be found on the Boston Terminal Area Chart.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/3722037",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-03-17T12:45:23",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1679057123541",
+    "dcterms:modified" : "2023-03-17T12:45:23",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://goldfarb.github.io/iiif-test-project/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=4700,1425,1583,1744"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M4700.37122,1425.09827h791.36082v0h791.36082v871.90714v871.90714h-791.36082h-791.36082v-871.90714z\" data-paper-data=\"{&quot;strokeWidth&quot;:6,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"rectangle_13d615a4-f050-4c2d-8897-f62c77154c2a\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#ff00ff\" stroke-width=\"6\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://837a34fa-4171-4fcd-96fa-efd62dd85659"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "This information is consistent for all VFR charts.",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>This information is consistent for all VFR charts.</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/3722037",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-03-17T12:44:24",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1679057064009",
+    "dcterms:modified" : "2023-03-17T12:44:33",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://goldfarb.github.io/iiif-test-project/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=11,0,650,1240"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M661.15948,1239.96481h-324.95999v0h-324.95999v-619.98241v-619.98241h324.95999h324.95999v619.98241z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;rotation&quot;:0,&quot;annotation&quot;:null,&quot;nonHoverStrokeColor&quot;:[&quot;Color&quot;,0,0.74902,1],&quot;editable&quot;:true}\" id=\"rectangle_61035128-4959-4b40-a7e3-2dbdcf05ac6a\" fill-opacity=\"0.00001\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"2.80988\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://837a34fa-4171-4fcd-96fa-efd62dd85659"
+    } ]
+  } ],
+  "@id" : "https://goldfarb.github.io/iiif-test-project/annotations/f952db925fa11cf2c5332a2cfbfa9d14.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
