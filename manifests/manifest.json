@@ -46,7 +46,38 @@
       "otherContent" : [ {
         "@type" : "sc:AnnotationList",
         "@id" : "https://goldfarb.github.io/iiif-test-project/annotations/f952db925fa11cf2c5332a2cfbfa9d14.json",
-        "label" : "Annotations for canvas NY Sectional"
+        "label" : "Annotations for the New York Sectional"
+      } ]
+    }, {
+      "@id" : "http://837a34fa-4171-4fcd-96fa-efd62dd85659",
+      "@type" : "sc:Canvas",
+      "label" : "NY Sectional",
+      "height" : 4951,
+      "width" : 7154,
+      "images" : [ {
+        "@context" : "http://iiif.io/api/presentation/2/context.json",
+        "@id" : "http://139e29c0-e1a3-496e-bdcc-fbd76b808210",
+        "@type" : "oa:Annotation",
+        "motivation" : "sc:painting",
+        "resource" : {
+          "@id" : "https://iiif.archivelab.org/iiif/new-york-sec_202303/full/full/0/default.jpg",
+          "@type" : "dctypes:Image",
+          "format" : "image/jpeg",
+          "service" : {
+            "@context" : "http://iiif.io/api/image/2/context.json",
+            "@id" : "https://iiif.archivelab.org/iiif/new-york-sec_202303",
+            "profile" : [ "http://iiif.io/api/image/2/level2.json" ]
+          },
+          "height" : 4951,
+          "width" : 7154
+        },
+        "on" : "http://1fe1c84c-697b-48c8-b3dc-0d1c4fbbf24b"
+      } ],
+      "related" : "",
+      "otherContent" : [ {
+        "@type" : "sc:AnnotationList",
+        "@id" : "https://goldfarb.github.io/iiif-test-project/annotations/f952db925fa11cf2c5332a2cfbfa9d14.json",
+        "label" : "Annotations for the New York Sectional"
       } ]
     }, {
       "@id" : "http://1fe1c84c-697b-48c8-b3dc-0d1c4fbbf24b",
@@ -71,13 +102,13 @@
           "height" : 3587,
           "width" : 4991
         },
-        "on" : "http://1fe1c84c-697b-48c8-b3dc-0d1c4fbbf24b"
+        "on" : "http://1fe1c84c-697b-48c8-b3dc-0d1c4fbbf24b#xywh=3953,927,1078,1045"
       } ],
       "related" : "",
       "otherContent" : [ {
         "@type" : "sc:AnnotationList",
         "@id" : "https://goldfarb.github.io/iiif-test-project/annotations/c2e5f64e607225cc8f0d2249d966e281.json",
-        "label" : "Annotations for canvas Boston Terminal Area Chart"
+        "label" : "Annotations for the Boston Terminal Area Chart"
       } ]
     } ]
   } ],
