@@ -1,0 +1,105 @@
+{
+  "@type" : "sc:AnnotationList",
+  "resources" : [ {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Boston Class B Airspace\nfrom 3,000 ft to 7,000 ft",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Boston Class B Airspace</p>\n<p>from 3,000 ft to 7,000 ft</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/3722037",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-03-16T21:56:58",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1679003818030",
+    "dcterms:modified" : "2023-03-16T21:56:58",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://goldfarb.github.io/iiif-test-project/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2345,640,16,25"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2353.48226,664.92701c0,-5.4883 2.74415,-10.9766 8.23245,-16.4649c0,-4.54666 -3.68579,-8.23245 -8.23245,-8.23245c-4.54666,0 -8.23245,3.68579 -8.23245,8.23245c5.4883,5.4883 8.23245,10.9766 8.23245,16.4649z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;fixedSize&quot;:true,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;annotation&quot;:null}\" id=\"pin_a04fde78-f774-4f79-b7de-84a388a70444\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://1fe1c84c-697b-48c8-b3dc-0d1c4fbbf24b"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Mode C Ring\n30 NM from KBOS",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Mode C Ring</p>\n<p>30 NM from KBOS</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/3722037",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-03-16T21:56:16",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1679003775429",
+    "dcterms:modified" : "2023-03-16T21:56:16",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://goldfarb.github.io/iiif-test-project/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=2688,359,16,25"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M2695.95216,383.37724c0,-5.4883 2.74415,-10.9766 8.23245,-16.4649c0,-4.54666 -3.68579,-8.23245 -8.23245,-8.23245c-4.54666,0 -8.23245,3.68579 -8.23245,8.23245c5.4883,5.4883 8.23245,10.9766 8.23245,16.4649z\" data-paper-data=\"{&quot;strokeWidth&quot;:1,&quot;fixedSize&quot;:true,&quot;editable&quot;:true,&quot;deleteIcon&quot;:null,&quot;annotation&quot;:null}\" id=\"pin_be946b69-4804-4599-9028-62a8fca23ce5\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#00bfff\" stroke-width=\"1\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://1fe1c84c-697b-48c8-b3dc-0d1c4fbbf24b"
+    } ]
+  }, {
+    "resource" : [ {
+      "http://dev.llgc.org.uk/sas/full_text" : "Boston Airspace",
+      "@type" : "dctypes:Text",
+      "format" : "text/html",
+      "chars" : "<p>Boston Airspace</p>"
+    } ],
+    "@type" : "oa:Annotation",
+    "dcterms:creator" : "https://dev.gdmrdigital.com/user/1245635613/3722037",
+    "motivation" : [ "oa:commenting" ],
+    "dcterms:created" : "2023-03-16T22:12:01",
+    "@id" : "https://dev.gdmrdigital.com/annotation/anno/1679004721854",
+    "dcterms:modified" : "2023-03-16T22:12:01",
+    "@context" : "file:/usr/local/tomcat/webapps/ROOT/contexts/iiif-2.0.json",
+    "on" : [ {
+      "within" : {
+        "@type" : "sc:Manifest",
+        "@id" : "https://goldfarb.github.io/iiif-test-project/manifests/manifest.json"
+      },
+      "@type" : "oa:SpecificResource",
+      "selector" : {
+        "default" : {
+          "@type" : "oa:FragmentSelector",
+          "value" : "xywh=1255,413,1538,1605"
+        },
+        "item" : {
+          "@type" : "oa:SvgSelector",
+          "value" : "<svg xmlns='http://www.w3.org/2000/svg'><path xmlns=\"http://www.w3.org/2000/svg\" d=\"M1479.8251,648.11626c142.0041,-134.76145 342.32389,-235.11374 543.61443,-234.99384v0v0c201.29054,0.1199 376.64836,93.99784 543.61443,234.99384c166.96607,140.996 231.86366,355.84669 225.17247,567.32532c-6.69119,211.47864 -84.97118,419.58522 -225.17247,567.32532c-140.20129,147.74011 -342.32389,235.11374 -543.61443,234.99384c-201.29054,-0.1199 -401.749,-87.73332 -543.61443,-234.99384c-141.86542,-147.26053 -225.1378,-354.16816 -225.17247,-567.32532c-0.03467,-213.15717 83.16837,-432.56387 225.17247,-567.32532z\" data-paper-data=\"{&quot;strokeWidth&quot;:3,&quot;rotation&quot;:0,&quot;deleteIcon&quot;:null,&quot;rotationIcon&quot;:null,&quot;group&quot;:null,&quot;editable&quot;:true,&quot;annotation&quot;:null}\" id=\"ellipse_46bb1267-27e8-4706-b098-1afc202440b7\" fill-opacity=\"0\" fill=\"#00bfff\" fill-rule=\"nonzero\" stroke=\"#197796\" stroke-width=\"3\" stroke-linecap=\"butt\" stroke-linejoin=\"miter\" stroke-miterlimit=\"10\" stroke-dasharray=\"\" stroke-dashoffset=\"0\" font-family=\"none\" font-weight=\"none\" font-size=\"none\" text-anchor=\"none\" style=\"mix-blend-mode: normal\"/></svg>"
+        },
+        "@type" : "oa:Choice"
+      },
+      "full" : "http://1fe1c84c-697b-48c8-b3dc-0d1c4fbbf24b"
+    } ]
+  } ],
+  "@id" : "https://goldfarb.github.io/iiif-test-project/annotations/c2e5f64e607225cc8f0d2249d966e281.json",
+  "@context" : "http://iiif.io/api/presentation/2/context.json"
+}
